@@ -1,0 +1,5 @@
+module;
+
+query hello_world() {
+  return "Hello World!";
+}
