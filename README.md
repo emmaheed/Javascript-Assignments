@@ -3,5 +3,13 @@
 2. Install [Node.js](https://nodejs.org/en/download/) (Node 18 in particular if running in a Node environment).
 3. If utilizing types, install [TypeScript](https://www.typescriptlang.org/download).
 4. Initialize a JavaScript or TypeScript project, see [TypeScript Project Setup](https://khalilstemmler.com/blogs/typescript/node-starter-project/).
-5. `npx tsc main.ts`: Compile the ts-file and .js is created
-6. `node main.js`: Run the .js-file
+5. `brew install tsc`
+6. `brew install typescript`
+7. `npm run build`
+8. `npm run start`
+9. `npm install`
+10. `npm init`: Create a new project
+11. `npx tsc main.ts`: Compile the .ts-file and a .js-file is created.
+12. `tsc --build`: Compile all the .ts-files in the current directory. 
+13. `node main.js`: Run the .js-file (Node is the environment where javascript runs).
+
