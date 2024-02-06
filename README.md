@@ -5,12 +5,13 @@
 4. Initialize a JavaScript or TypeScript project, see [TypeScript Project Setup](https://khalilstemmler.com/blogs/typescript/node-starter-project/).
 5. `brew install typescript`
 6. `brew install tsc`
-10. `npx tsc main.ts`: Compile the .ts-file and a .js-file is created.
-11. `tsc --build`: Compile all the .ts-files in the current directory.
-12. `node main.js`: Run the .js-file (Node is the environment where javascript runs).
 
 ## Install packages 
-2. `npm install`
-3. `npm -g install <package>`: The package gets installed global at the computer. 
-4. `npm install <package>`: The package gets installed in the current directory.
+1. `npm install`
+2. `npm -g install <package>`: The package gets installed global at the computer. 
+3. `npm install <package>`: The package gets installed in the current directory.
 
+## Run typescript file
+1. `npx tsc main.ts`: Compile the .ts-file and a .js-file is created.
+2. `tsc --build`: Compile all the .ts-files in the current directory.
+3. `node main.js`: Run the .js-file (Node is the environment where javascript runs).
